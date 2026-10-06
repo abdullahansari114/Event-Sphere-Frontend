@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+/* Custom scrollbar for the booth grid */
+.booth-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #93c5fd #f1f5f9;
+}
+
+.booth-scroll::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.booth-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 999px;
+}
+
+.booth-scroll::-webkit-scrollbar-thumb {
+  background: #93c5fd;
+  border-radius: 999px;
+  border: 2px solid #f1f5f9;
+}
+
+.booth-scroll::-webkit-scrollbar-thumb:hover {
+  background: #60a5fa;
+}
